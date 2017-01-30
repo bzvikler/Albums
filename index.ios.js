@@ -16,7 +16,7 @@ const App = () => (
 
   // props is used to pass data from parent to child, class or functional
   // state is used to keep track of component's internal data, class based only
-  <View>
+  <View style={{ flex: 1 }}>
     <Header headerText={'Albums'} />
     <AlbumList />
   </View>
